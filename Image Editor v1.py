@@ -18,15 +18,15 @@ class Window(QWidget):
         self.gray_image = big_org_img.convert("L")
         smol_gray_image= self.gray_image.resize((250,250), Image.ANTIALIAS)
         smol_gray_image.save("fastgrayimg.jpg")
-        pixmap = QPixmap("C:/Users/Petr/Documents/Projekty/Python/fastgrayimg.jpg")
+        pixmap = QPixmap("Zde vložte cestu pro krátkodobé ukládání obrázků/fastgrayimg.jpg")
         self.smol_con_img.setPixmap(pixmap)
         self.bt_save.setEnabled(True)
 
     def ShowIMG(self):
         big_org_img = Image.open(self.file_name)
         smol_org_img = big_org_img.resize((250,250), Image.ANTIALIAS)
-        smol_org_img.save("pychletoulozim.jpg")
-        pixmap = QPixmap("C:/Users/Petr/Documents/Projekty/Python/pychletoulozim.jpg")
+        smol_org_img.save("fastsave.jpg")
+        pixmap = QPixmap("Zde vložte cestu pro krátkodobé ukládání obrázků/fastsave.jpg")
         self.smol_org_img.setPixmap(pixmap)
         self.bt_con.setEnabled(True)
     
