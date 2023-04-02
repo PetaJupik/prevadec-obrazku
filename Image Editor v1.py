@@ -33,7 +33,7 @@ class Window(QWidget):
 
     def OpenIMG(self):
         options = QFileDialog.Options()
-        file_name, _ = QFileDialog.getOpenFileName(self, "Open Image", "", "Image Files (*.png *.jpg *.bmp *.gif)", options=options)
+        file_name, _ = QFileDialog.getOpenFileName(self, "Open Image", "", "Image Files (*.jpg)", options=options)
         if file_name:
             self.file_name = file_name
             self.ShowIMG()
