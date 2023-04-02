@@ -4,10 +4,10 @@ Napsané v programovacím jazyce Python za pomoci knihoven PyQt5 a PIL.
 
 Tento program byl naprogramován pro operační systém Windows 10, nezaručuji funkčnost na jiných operačních systémech.
 Věci potřebné pro spuštění tohoto programu:
-Visual Studio Code
-Python 3.10 a výše
-Správce balíčku PIP
-Knihovny PyQt5 a PIL
+  Visual Studio Code
+  Python 3.10 a výše
+  Správce balíčku PIP
+  Knihovny PyQt5 a PIL
 
 1. Nainstalování VSC (Visual Studio Code)
   Zde je externí odkaz --> https://code.visualstudio.com/docs/setup/windows
