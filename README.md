@@ -2,6 +2,8 @@
 Převaděč barevných obrázků na černobílé.
 Napsané v programovacím jazyce Python za pomoci knihoven PyQt5 a PIL.
 
+!! Zahájeny práce na nové verzi tohoto programu!!
+
 Tento program byl naprogramován pro operační systém Windows 10, nezaručuji funkčnost na jiných operačních systémech.
 Věci potřebné pro spuštění tohoto programu: Visual Studio Code, Python 3.10 a výše, správce balíčku PIP, knihovny PyQt5 a PIL
 
